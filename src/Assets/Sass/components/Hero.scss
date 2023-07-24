@@ -1,0 +1,52 @@
+
+.Banner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 223px;
+	border-radius: 25px;
+	position: relative;
+	margin-top: 40px;
+	& h1 {
+		position: absolute;
+		color: $color_1;
+		font-size: 48px;
+		font-weight: 500;
+	}
+	& img {
+		overflow: hidden;
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+		border-radius: 25px;
+	}
+	& .boxshadow_banner {
+		background: linear-gradient(180deg, #ffffff00 0%, rgba(0, 0, 0, 0.5) 100%);
+		border-radius: 25px;
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		top: 0;
+	}
+}
+
+@media screen and (max-width: 760px) {
+	.Banner {
+		width: 335px;
+		height: 111px;
+		border-radius: 10px;	
+		margin: 40px auto;	
+		& h1 {
+			font-size: 24px;
+			margin-left: 10px;
+		}
+		& img {
+			border-radius: 10px;
+		}
+		& .boxshadow_banner {
+		
+			border-radius: 10px;
+			
+		}
+	}
+}

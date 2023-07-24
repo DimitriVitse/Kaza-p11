@@ -1,0 +1,38 @@
+.card {
+	height: 100%;
+	min-height: 340px;
+	position: relative;
+	border-radius: 10px;
+	&:hover {
+		cursor: pointer;
+		opacity: 0.9;
+	}
+	img {
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+		border-radius: 10px;
+	}
+	h2 {
+		position: absolute;
+		bottom: 20px;
+		left: 20px;
+		font-size: 18px;
+		color: $color_1;
+		font-weight: 500;
+	}
+}
+.boxshadow {
+	background: linear-gradient(180deg, #ffffff00 0%, rgba(0, 0, 0, 0.5) 100%);
+	border-radius: 10px;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+}
+@media screen and (max-width: 760px) {
+	.card {
+		width: 335px;
+		height: 255px;
+	}
+}

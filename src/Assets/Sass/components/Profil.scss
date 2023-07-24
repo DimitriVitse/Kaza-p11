@@ -1,0 +1,36 @@
+.profil-section {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: $color_2;
+    & h3 {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    & img {
+        width: 64px;
+        height: 64px;
+
+        border-radius: 50%;
+    }
+}
+@media screen and (max-width: 760px) {
+    .profil-section {
+        gap: 0px;
+        margin-left: 25%;
+        & h3 {
+            font-size: 12px;
+            text-align: end;
+            padding-right: 5px;
+            width: 50px;
+        }
+
+        & img {
+            width: 32px;
+            height: 32px;
+
+            border-radius: 50%;
+        }
+    }
+}

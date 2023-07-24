@@ -1,0 +1,33 @@
+
+.dropdownhead {
+    display: flex;
+    background-color: #FF6060;
+    justify-content: space-between;
+    align-items: center;
+    height:47px;
+    border-radius: 5px;
+    h2{
+        margin-left: 30px;
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 500;
+    }
+    img {
+        margin-right: 30px;
+        &.drophaut {
+            animation: dropdown 0.5s 1 linear;
+            animation-fill-mode: forwards;
+        }
+    }
+    
+}
+
+.dropdowntext {
+    animation: dropdowntext 0.5s 1 linear;
+    font-size: 24px;
+    padding: 25px;
+    background-color: #f6f6f6;
+    margin: 0;
+    border-radius: 5px;
+    color: #FF6060;
+}

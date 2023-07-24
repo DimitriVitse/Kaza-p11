@@ -1,0 +1,22 @@
+.title-location {
+    color: $color_2;
+    & h2 {
+        font-size: 36px;
+        font-weight: 500;
+        margin-bottom: 0;
+    }
+    & p {
+        margin-top: 0;
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 760px) {
+    .title-location {
+        & h2 {
+            font-size: 18px;
+        }
+        & p {
+            font-size: 12px;
+        }
+    }
+}

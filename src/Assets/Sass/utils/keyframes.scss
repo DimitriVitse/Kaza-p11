@@ -1,0 +1,14 @@
+@keyframes dropdown {
+from {transform: rotate(0deg);} to {transform: rotate(180deg);}
+}
+@keyframes dropdowntext {
+    0% {
+        opacity: 0%;
+    }
+    50% {
+        opacity: 50%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}

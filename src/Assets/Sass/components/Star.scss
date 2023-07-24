@@ -1,0 +1,18 @@
+.star-rating {
+    & .star {
+        width: 24.75px;
+        height: 24px;
+        margin: 5px;
+    }
+}
+@media screen and (max-width: 760px) {
+    .star-rating {
+        order: 3;
+        align-self: center;
+        & .star {
+            width: 18px;
+            height: 18px;
+            margin: 5px;
+        }
+    }
+}

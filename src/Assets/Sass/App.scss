@@ -1,0 +1,33 @@
+@import '@/Assets/Sass/components/card.scss';
+@import '@/Assets/Sass/components/Hero.scss';
+@import '@/Assets/Sass/components/Dropdown.scss';
+@import '@/Assets/Sass/components/Gallery.scss';
+@import '@/Assets/Sass/components/TitleSection.scss';
+@import '@/Assets/Sass/components/Profil.scss';
+@import '@/Assets/Sass/components/Tags.scss';
+@import '@/Assets/Sass/components/Star.scss';
+
+@import '@/Assets/Sass/layout/main.scss';
+@import '@/Assets/Sass/layout/header.scss';
+@import '@/Assets/Sass/layout/footer.scss';
+
+
+
+
+.layout {
+		max-width: 1440px;
+		margin: 0px auto;
+	
+	}
+
+
+
+body {
+	margin: 0;
+	font-family: $font-family_1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+code {
+	font-family: $font-family_2;
+}
