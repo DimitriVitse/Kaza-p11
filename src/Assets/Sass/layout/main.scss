@@ -66,14 +66,18 @@ main {
     & .sectionlogement {
         & .infos {
             display: flex;
-            flex-wrap: wrap;
-            & .title-location {
-                order: 1;
-            }
-            .title-profil {
+            justify-content: space-between;
+            align-items: center;
+            & .host-rating {
+                gap: 20px;
                 display: flex;
-                margin-right: 15px;
-                justify-content: space-between;
+                align-items: center;
+                flex-direction: column;
+                & .title-profil {
+                    display: flex;
+                    margin-right: 15px;
+                    justify-content: space-between;
+                }
             }
         }
         .sectiondropdown {
@@ -95,9 +99,6 @@ main {
 
             flex-direction: column;
             position: relative;
-            & .profil-section {
-                order: 4;
-            }
 
             & .tags {
                 flex-wrap: wrap;
@@ -130,6 +131,15 @@ main {
 @media screen and (max-width: 760px) {
     main {
         margin: 20px;
+        & .sectionlogement {
+            & .infos {
+                flex-wrap: wrap;
+                & .host-rating {
+                    flex-direction: row-reverse;
+                    justify-content: flex-end;
+                }
+            }
+        }
         & .sectionAbout {
             .Banner {
                 width: 336px;
